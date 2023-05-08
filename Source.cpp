@@ -1,12 +1,14 @@
 ﻿#include <iostream>
-#include <windows.h>
-#include <string>
-using namespace std;
+using std::endl;
+using std::cout;
 
 int main()
 {
-	setlocale(LC_All, "ru");
-	cout << (char)1 << endl;
+	setlocale(LC_ALL, "ru");
+	for (int i = 0; i <= 255; i++)
+	{
+		cout << (char)i << endl;
+	}
 	return 0;
 }
 //cout << "╔════════════════════════════════════════════╗" << endl;
